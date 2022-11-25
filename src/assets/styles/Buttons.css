@@ -1,0 +1,32 @@
+button {
+  border: none;
+  padding: 4px 14px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button.primary {
+  background-color: #66cccc;
+  color: white;
+}
+
+button.primary:hover {
+  background-color: #74dbdb;
+}
+
+button.primary:active {
+  background-color: #66cccc;
+}
+
+button.danger {
+  background-color: #ff6666;
+  color: white;
+}
+
+button.danger:hover {
+  background-color: #ff7f7f;
+}
+
+button.danger:active {
+  background-color: #ff6666;
+}
